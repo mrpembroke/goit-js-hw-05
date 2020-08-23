@@ -20,3 +20,11 @@ console.log(mango.getInfo());
 const poly = new Account('Poly', 'poly@mail.com');
 console.log(poly.getInfo());
 // 'login : Poly, email: poly@mail.com'
+
+/* 
+function-constructor
+Напиши функцию-конструктор Account, которая создает объект со свойствами login и email.
+
+В prototype функции-конструктора добавь метод getInfo(),
+который возвращает строку со значениями свойств login и email объекта.
+*/

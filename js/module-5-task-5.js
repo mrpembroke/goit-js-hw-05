@@ -38,7 +38,7 @@ class Car {
 	 *             начальное значение `0`
 	 */
 
-	constructor({ speed = 0, price, maxSpeed, isOn = true, distance = 0 }) {
+	constructor({ speed = 0, price, maxSpeed, isOn = false, distance = 0 }) {
 		this.speed = speed;
 		this._price = price;
 		this.maxSpeed = maxSpeed;
